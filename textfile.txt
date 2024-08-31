@@ -1,0 +1,62 @@
+Press:- Shift + 1 and press enter then u got your Formate
+
+Press :- Alt + z so u can get a one line to paragraph for code
+
+<!DOCTYPE html>
+
+-->Document type html
+
+<html lang="en">
+-->  In html we use English lang.
+
+<head>
+
+    <meta charset="UTF-8">
+    encoding
+    what is the full form of UTF ? -->  Unicode tra Formate
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+
+    --> in title we Enter our web name 
+
+</head>
+<body>
+            what we want to show in my web we Write in Body... 
+            all of Code    
+</body>
+</html>
+
+
+heading Tags :- 
+
+we have total 6 heading Tags 
+
+there is size diffrence between h1 to h6 
+
+h1, --> max 
+h2,
+h3,
+h4,
+h5,
+h6, --> min
+
+
+center :- what we write in center tag that all parts come in center
+
+
+p tag:- paragraph tag
+
+how to add images in our websites ?
+
+--> there is total 2 way's to add images 
+
+1st from download 
+--> 
+
+2nd from google
+--> 
+
+what is src ? ==> source
+what is alt ? ==> altranet
