@@ -1,0 +1,10 @@
+What is form ?
+--> to take input from user or from browser
+
+
+in which types of data we can take input from user ?
+--> Name , Email , Password , Phone , Address ,
+    Date , Time , File , Image , Video , Audio , 
+    Radio , Checkbox , Select , Textarea , Range , 
+    Color , Number , Submit , Button , Hidden , 
+    Reset , etc.
