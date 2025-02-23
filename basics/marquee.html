@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+        what is marquee?
+        The <marquee> tag is a non-standard HTML element that was used to create scrolling text or images on a web page.
+
+            right to left 
+            left to right
+            up to down
+            down to up
+
+        loop attribute :  scrolling text or images a specified number of times before stopping.
+        scrollamount attribute :  speed of the scrolling text or images.
+        scrolldelay attribute :  delay between each scroll movement.
+
+            behavior attribute :  scrolling text or images in different ways.
+                    1. scroll :  default value. The content scrolls in one direction.
+                    2. slide :  The content scrolls in one direction and then stops.
+                    3. alternate :  The content scrolls in one direction, then reverses direction and scrolls back.
+
+            direction attribute :  scrolling text or images in different directions.
+                    1. left :  The content scrolls from right to left.
+                    2. right :  The content scrolls from left to right.
+                    3. up :  The content scrolls from bottom to top.
+                    4. down :  The content scrolls from top to bottom.
+
+    by default, the direction is left-side.
+
+    -->
+
+
+    <marquee behavior="alternate" direction="right" scrollamount="15" height="200px">
+        <h1>hello world</h1>
+    </marquee>
+
+</body>
+
+</html>

@@ -60,3 +60,6 @@ how to add images in our websites ?
 
 what is src ? ==> source
 what is alt ? ==> altranet
+
+
+maequee tag :-
