@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* CSS Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    div {
+        border: solid 1px;
+        width: fit-content;
+        text-align: center;
+    }
+
+    #btn1 {
+        margin-right: 20px;
+    }
+
+    #btn2 {
+        /* margins do not overlap if any of the involved elements is non-block element */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #box1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 30px;
+
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+    }
+
+    #box2 {
+        /* margin overlap only block elements */
+        margin-top: 20px;
+    }
+
+    #box3 {
+        /* Equal margin and padding from all sides */
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #box5 {
+        /* margin and padding with two values 
+            margin: vertical horizontal
+            margin: top&bottom left&right
+        */
+
+        margin: 20px 40px;
+        padding: 10px 30px;
+    }
+
+    #box7 {
+
+        /* margin and padding with three values 
+            margin: top right bottom left
+            margin and padding work as a clockwise direction
+        */
+        margin: 10px 20px 30px 40px;
+        padding: 5px 15px 25px 35px;
+    }
+
+
+    #box9 {
+        /* margin and padding with four values 
+            margin: top right-left bottom
+        */
+        margin: 5px 15px 25px;
+        padding: 10px 20px 30px;
+    }
+
+
+    #btn3,
+    #box10 {
+        /* margin auto works only with block elements */
+        /* margin auto only works horizontally with block elements where width is less than full width */
+
+        margin: auto;
+    }
+</style>
+
+<body>
+
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+
+
+    <div id="box1">Box 1</div>
+    <div id="box2">Box 2</div>
+    <div id="box3">Box 3</div>
+    <div id="box4">Box 4</div>
+    <div id="box5">Box 5</div>
+    <div id="box6">Box 6</div>
+    <div id="box7">Box 7</div>
+    <div id="box8">Box 8</div>
+    <div id="box9">Box 9</div>
+    <div id="box10">Box 10</div>
+
+    <button id="btn3">Button 3</button>
+
+</body>
+
+</html>
